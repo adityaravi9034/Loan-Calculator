@@ -1,13 +1,15 @@
 # Loan-Calculator
 
 This Calculator has the capacity to compute differentiated payments. We’ll do this for the type of repayment where the loan principal is reduced by a constant amount each month. The rest of the monthly payment goes toward interest repayment and it is gradually reduced over the term of the loan. This means that the payment is different each month. 
+
 Objectives
-In this stage, I am going to implement the following features:
+By the end of the final phase, I am going to implement the following features:
 
 Calculation of differentiated payments. To do this, the user can run the program specifying interest, number of monthly payments, and loan principal.
-Ability to calculate the same values as in the previous stage for annuity payment (principal, number of monthly payments, and monthly payment amount). The user specifies all the known parameters with command-line arguments, and one parameter will be unknown. This is the value the user wants to calculate.
-Handling of invalid parameters. It's a good idea to show an error message if the user enters invalid parameters (they are discussed in detail below).
-The final version of your program is supposed to work from the command line and parse the following parameters:
+Ability to calculate the same values as in the previous stage for annuity payment (principal, number of monthly payments, and monthly payment amount).
+The user specifies all the known parameters with command-line arguments, and one parameter will be unknown. This is the value the user wants to calculate.
+Handling of invalid parameters. 
+The final version of this program is supposed to work from the command line and parse the following parameters:
 
 --type indicates the type of payment: "annuity" or "diff" (differentiated). If --type is specified neither as "annuity" nor as "diff" or not specified at all, show the error message.
 > python creditcalc.py --principal=1000000 --periods=60 --interest=10
