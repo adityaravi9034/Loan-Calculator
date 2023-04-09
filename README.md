@@ -1,9 +1,9 @@
 # Loan-Calculator
 
-#Loan Calculator
+Loan Calculator
 This is a command-line tool written in Python that can help you calculate different types of loan payments. It can calculate annuity payments, loan periods, and differentiated payments. It takes input from the user through the command line and provides the result accordingly.
 
-#Prerequisites
+Prerequisites
 Python 3.x installed on your computer
 Basic knowledge of using the command line
 How to Use
